@@ -1,0 +1,45 @@
+*{
+	margin:0;
+	padding:0;
+	}
+
+
+
+
+section{
+	width:100%;
+	height: 100vh;
+	background-color:lavender;
+}
+
+section#header{
+	width:100%;
+	height: 100vh;
+	line-height: 100vh; /* размер междустрочного интервала*/
+	background-image: url('https://www.planwallpaper.com/static/images/new-wallpaper-161_5CayiWd.jpg');
+	background-size: cover;
+	background-position: center /*top/left/right/bottom*/; /*100% 100%* или игра значениями*/
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	/*background-color:lavender;*/
+	/*px/%/vh*/ }
+	/*vh - viewport height (100% высота экрана, а vw - для ширины)*/
+
+#header h1{
+	/*
+	чтобы вместитьь все в одну строку:
+	порядок:
+	font: font-style font-variant font-weight font-size/line-height font-family|caption|icon|menu|message-box|small-caption|status-bar|initial|inherit;*/
+	font-size: 75px;/*px/em/rem/%/vh*/
+	font-weight: lighter; /*light/normal/bold/semi-bold*/
+	font-family: 'Times' /*'Arial' и т.д., sans-*/ serif;
+	font-variant: normal /*small-caps/inherit*/ ;
+	font-style: italic /*normal, monospace*/ ;
+	color: red;
+	text-align: center /*left/right/center/justify*/;
+	text-decoration: overline /*underline/line-through*/ ;
+	text-transform: capitalize /*cuppercase/lowercase*/ ;
+	/* text-indent: 100px/px/em/%/vw - абзац (если выровнять по краю)*/;
+
+
+}
